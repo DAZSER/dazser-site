@@ -1,0 +1,21 @@
+/* CSS Document */
+
+*{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	text-align:left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+	text-align:center;
+	background:#999;
+}
+
+#table {
+	position:absolute;		/*Position is absolute to enable layering*/
+	left:50%;				/*Sets the left margin of the div to be centered on screen, Keep this at 50%*/
+	width:878px;			/*Set the width of the content*/
+	margin-left:-439px;		/*Change this value to be half of the width*/
+}
