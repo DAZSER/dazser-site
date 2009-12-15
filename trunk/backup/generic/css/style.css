@@ -1,0 +1,23 @@
+html {overflow-y: scroll;} 
+body{ background:#6B91A9 url(../images/bg.png) repeat-x scroll left top;}
+#container{
+	width: 870px;	
+	margin: 0 auto;
+}
+#header{
+	text-align:center;height: 257px;background:url(../images/head.png) no-repeat;
+	padding-top: 20px;
+}
+#body{
+	background:url(../images/contentBg.png) repeat-y;
+	min-height: 500px;
+}
+#bodyContent{padding:10px;text-align:justify;}
+#bodyContent p.leftAlign{text-align: left;}
+#footer{
+	background-image:url(../images/foot.png);
+	text-align:center;
+	background-repeat: no-repeat;
+	height:75px;
+}
+

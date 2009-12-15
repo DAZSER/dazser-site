@@ -1,0 +1,86 @@
+/* CSS Document */
+
+*{
+		margin:0px;
+		border:0px;
+		padding:0px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		}
+
+body {
+		text-align:center;
+		background:#999;
+		}
+	
+#frame {
+		width:736px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:0px;
+		padding:0px;
+		text-align:left;
+		}
+		
+#contentleft {
+		width:58px;
+		padding:0px;
+		float:left;
+		}
+	
+#centernav {
+		width:620px;
+		padding:0px;
+		float:left;
+		background:#ccc;
+		}
+		
+#center {
+		width:620px;
+		height:475px;
+		padding:0px;
+		float:left;
+		background:#ccc;
+		}
+	
+#contentright {
+		width:58px;
+		padding:0px;
+		float:left;
+		background:#fff;
+		}
+		
+#foot {
+		width:736px;
+		padding:0px;
+		float:left;
+		margin-right:auto;
+		margin-left:auto;
+		text-align:left;
+		margin-top:0px;
+		}
+
+	a:link {
+		color: #000000;
+		text-decoration: none;
+		font-weight:bold;
+		}
+	
+	a:visited {
+		color: #000000;
+		text-decoration: none;
+		font-weight:bold;
+		}
+	
+	a:hover {
+		color: #57b4ef;
+		text-decoration: none;
+		font-weight:bold;
+		}
+	
+	a:active {
+		color: #000000;
+		text-decoration: none;
+		font-weight:bold;
+		}
+		

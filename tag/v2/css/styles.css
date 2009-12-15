@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+overflow-y: scroll;
+} 
+body{ background:#6B91A9 url(../images/bg_site.png) repeat-x scroll left top;}
+
+#container{
+	width: 870px;	
+	margin: 0 auto;
+}
+#header{
+	text-align:center;height: 190px;
+}
+
+ul#nav {
+	margin: 0;
+}
+
+ul#nav li, ul#nav li a {
+	width: 145px;
+	height: 31px;
+	list-style: none;
+	display: inline-block;
+}
+
+ul#nav li a{text-indent: -9999px; outline:none;}
+
+#home{background-image:url(../images/linkSprite.png);}
+#news{background:url(../images/linkSprite.png) -145px 0px;}
+#services{background:url(../images/linkSprite.png) -290px 0px;}
+#offices{background:url(../images/linkSprite.png) -435px 0px;}
+#franchises{background:url(../images/linkSprite.png) -580px 0px;}
+#contact{background:url(../images/linkSprite.png) -725px 0px;}
+
+#home:hover{background-position:0px 31px;}
+#news:hover{background-position:-145px 31px;}
+#services:hover{background-position:-290px 31px;}
+#offices:hover{background-position:-435px 31px;}
+#franchises:hover{background-position:-580px 31px;}
+#contact:hover{background-position:-725px 31px;}
+
+#logo{background:url(../images/headerBg.png) no-repeat;}
+
+#body{
+	background:url(../images/bodyBg.png) repeat-y;
+	min-height: 500px;
+}
+
+#bodyHeader{
+	padding-top:5px;
+	text-align:center;
+	background:url(../images/bodyHeader.png) no-repeat;height:87px;
+}
+
+#bodyContent{padding:10px;text-align:justify;}
+#bodyContent p.leftAlign{text-align: left;}
+#footer{
+	background-image:url(../images/footerBg.png);
+	text-align:center;
+	background-repeat: no-repeat;
+}
+
+acronym{border-bottom:none;}
+story{height: 110px;overflow: hidden;}
+
+.fancy a{
+	color:#f2dc86;
+}
