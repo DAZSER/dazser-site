@@ -2,12 +2,12 @@
 
 $(document).ready(function(){
 	var l= '<?= $location; ?>';
-	$('#address').load('http://www.dazser.com/assets/offices_process.php?l='+l);
+	$('#address').load('/assets/offices_process.php?l='+l);
 
 	$('.location').click(function(event){
 		var l = $(this).attr('name');
 		$('#address').fadeOut('fast', function(){
-			$(this).load('http://www.dazser.com/assets/offices_process.php?l='+l);
+			$(this).load('/assets/offices_process.php?l='+l);
 		});
 		event.preventDefault();
 	});
@@ -32,7 +32,7 @@ $result = mysql_query($sql) or die('Query failed: ' . mysql_error());
 
 <?php
 while($row = mysql_fetch_array($result)){
-	echo "<li><a href='http://www.dazser.com/assets/offices_process.php?l=".$row['location']."' class='location' name='".$row['location']."'>".$row['location']."</a></li>";
+	echo "<li><a href='/assets/offices_process.php?l=".$row['location']."' class='location' name='".$row['location']."'>".$row['location']."</a></li>";
 }
 
 include 'assets/closedb.php';

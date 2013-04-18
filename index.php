@@ -35,15 +35,15 @@ if( isset($_REQUEST['var']) )
 <meta name="Robots" content="INDEX,FOLLOW" />
 <meta name="Revisit-after" content="31 Days" />
 <title><?php echo ucfirst($page); ?> - Jani-King</title>
-<link href="http://www.dazser.com/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="http://www.dazser.com/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-<link rel="stylesheet" href="http://www.dazser.com/css/blueprint/print.css" type="text/css" media="print" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
 <!--[if lt IE 8]>
-  <link rel="stylesheet" href="http://www.dazser.com/css/blueprint/ie.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection" />
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="http://www.dazser.com/css/styles.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen, projection" />
 <!--[if lt IE 8]>
-  <link rel="stylesheet" href="http://www.dazser.com/css/ie.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" />
 <![endif]-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <!--[if IE 6]>
@@ -55,7 +55,7 @@ html #footer{
     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='images/footerBg.png');
 }
 </style>
-<link rel="stylesheet" href="http://www.dazser.com/css/ie.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" />
 <![endif]-->
 </head>
 
@@ -63,8 +63,9 @@ html #footer{
 <div id="container">
 
 	<div id="header">
-		<ul id="nav" class="clearfix"><li><a id="home" href="http://www.dazser.com/<?= $location; ?>/home">Home</a></li><li><a id="news" href="http://www.dazser.com/<?php echo $location; ?>/news">News</a></li><li><a id="services" href="http://www.dazser.com/<?php echo $location; ?>/services">Services</a></li><li><a id="offices" href="http://www.dazser.com/<?php echo $location; ?>/offices">Offices</a></li><li><a id="franchises" href="http://www.dazser.com/<?php echo $location; ?>/franchises">Franchises</a></li><li class="last-child"><a id="contact" href="http://www.dazser.com/<?php echo $location; ?>/contact">Contact</a></li></ul>
-		<div id="logo" class="logo"><a href="http://www.dazser.com"><img src="http://www.dazser.com/images/jklogo.png" alt="JK Logo" /></a></div>
+		<ul id="nav" class="clearfix">
+			<li><a id="home" href="/<?= $location; ?>/home">Home</a></li><li><a id="news" href="/<?php echo $location; ?>/news">News</a></li><li><a id="services" href="/<?php echo $location; ?>/services">Services</a></li><li><a id="offices" href="/<?php echo $location; ?>/offices">Offices</a></li><li><a id="franchises" href="/<?php echo $location; ?>/franchises">Franchises</a></li><li class="last-child"><a id="contact" href="/<?php echo $location; ?>/contact">Contact</a></li></ul>
+		<div id="logo" class="logo"><a href="http://www.dazser.com"><img src="/images/jklogo.png" alt="JK Logo" /></a></div>
 	</div>
     <div id="body" class="clearfix">
 		<div id="bodyHeader">
@@ -77,11 +78,11 @@ html #footer{
     </div>
 	<div id="footer" class="footer">
 		<p>&copy; <?php echo date('Y'); ?> <acronym>DAZSER</acronym> Management</p>
-        <h5 class="fancy"><a href="http://www.dazser.com/baltimore">Baltimore</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dazser.com/birmingham">Birmingham</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dazser.com/charlotte">Charlotte</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dazser.com/orlando">Orlando</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dazser.com/tampa">Tampa</a></h5>
+        <h5 class="fancy"><a href="/baltimore">Baltimore</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/birmingham">Birmingham</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/charlotte">Charlotte</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/orlando">Orlando</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tampa">Tampa</a></h5>
 	</div>	
 </div>
 <!--[if IE 6]>
-<script type="text/javascript" src="http://www.dazser.com/js/jquery.pngFix.min.js"></script>
+<script type="text/javascript" src="/js/jquery.pngFix.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	$('#logo').pngFix();
@@ -91,14 +92,12 @@ $(document).ready(function(){
 });
 </script>
 <![endif]-->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+<!-- mathiasbynens.be/notes/async-analytics-snippet -->
+<script>
+var _gaq=[['_setAccount','UA-8299399-2'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-8299399-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
 </body>
 </html>

@@ -25,7 +25,7 @@ while($row = mysql_fetch_array($result, MYSQL_ASSOC)){
 		echo '<h3>'.$row['from'].' Update:</h3>';
 
 		echo '<div>';
-			echo '<h6><a href="http://www.dazser.com/assets/article.php?var='.$row['pid'].'" class="story" name="story-'.$row['pid'].'">'.$row['title'].'</a></h6>';
+			echo '<h6><a href="/assets/article.php?var='.$row['pid'].'" class="story" name="story-'.$row['pid'].'">'.$row['title'].'</a></h6>';
 			echo '<h4>'.$row['date'].'</h4>';
 			echo '<div class="story-'.$row['pid'].'"></div>';
 		echo '</div>';
