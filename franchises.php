@@ -1,9 +1,8 @@
 <h1>Franchise Information</h1>
-<p>Jani-King is one of the fastest growing franchise networks in the world. Our owner-operator concept, coupled  with our regional support system, results in an organization well equipped to meet the high standards of today's building managers.</p>
+<p>Jani-King is one of the fastest growing franchise networks in the world. Our owner-operator concept, coupled  with our regional 
+	support system, results in an organization well equipped to meet the high standards of today's building managers.</p>
 <div style="float:right;padding-left: 10px;">
-	<object type="application/x-shockwave-flash" style="width:425px; height:344px;" data="http://www.youtube.com/v/BQ1CQm9N8G8">
-		<param name="movie" value="http://www.youtube.com/v/BQ1CQm9N8G8" />
-	</object>
+	<iframe width="425" height="344" src="http://www.youtube.com/embed/BQ1CQm9N8G8?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
 </div>
 <h2>Our program offers:</h2>
 <ul>
@@ -16,7 +15,7 @@
 	<li><strong>Bottom Line</strong>: Jani-King franchisees are in business for themselves, but not by themselves. We offer our expertise, ideas, and advice so you can grow and prosper with us.</li>
 </ul>
 
-<p><img src="http://www.dazser.com/images/entrepreneur_window2.png" class="left" alt="Entrepreneur 2009 Franchise Winner"/></p>
+<p><img src="/images/entrepreneur_window2.png" class="left" alt="Entrepreneur 2009 Franchise Winner"/></p>
 <div style="float:left;">
 <h2>Our Reputation speaks for itself!</h2>
 <ul>

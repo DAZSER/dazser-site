@@ -36,7 +36,7 @@ $(document).ready(function(){
 			data += '&comments='+$('#comments').val();
 			$.ajax({
 				type: "GET",
-				url: "http://www.dazser.com/assets/contact_process.php",
+				url: "/assets/contact_process.php",
 				data: data,
 				success: function(msg){
 					$('input[type=submit]').attr('value', 'SENT!');
@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 });
 </script>
-<form name="jkcontact" method="post" action="http://www.dazser.com/assets/contact_process.php" style="width:500px;" class="left">
+<form name="jkcontact" method="post" action="/assets/contact_process.php" style="width:500px;" class="left">
 	<fieldset>
 		<legend>Contact Us</legend>
 		
@@ -99,7 +99,7 @@ $(document).ready(function(){
         </p>
 		
 		<p>
-		<input name="Send" type="submit" id="send" value="Send" /><img src="http://www.dazser.com/images/ajax-loader.gif" alt="Sending..." id="loader"/>
+		<input name="Send" type="submit" id="send" value="Send" /><img src="/images/ajax-loader.gif" alt="Sending..." id="loader"/>
 		</p>
 	</fieldset>
 </form>

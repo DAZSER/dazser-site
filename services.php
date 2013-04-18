@@ -1,5 +1,6 @@
 <p>Jani-King has the experience and know-how to deliver a clean facility.</p>
-<p><img src="http://www.dazser.com/images/stock/r26.jpg" class="right" alt=""/>To provide the highest in quality services, Jani-King has developed quality assurance communication tools to make certain every facility cleaned by Jani-King meets our standard of excellence.
+<p><img src="/images/stock/r26.jpg" class="right" alt=""/>To provide the highest in quality services, Jani-King has developed quality assurance 
+	communication tools to make certain every facility cleaned by Jani-King meets our standard of excellence.
 </p>
 <h2>Our communication tools include:</h2>
 <ul>
@@ -22,7 +23,7 @@
 	<li>Pepsico</li>
 	<li>Westin Hotel &amp; Resorts</li>
 </ul>
-<p><img src="http://www.dazser.com/images/stock/17.jpg" alt="" class="left" style="margin:2em 1.5em;"/></p>
+<p><img src="/images/stock/17.jpg" alt="" class="left" style="margin:2em 1.5em;"/></p>
 <h2 style="text-align:left;">Our cleaning expertise spans a variety of businesses, large and small, including:</h2>
 <ul>
     <li>Retail Locations</li>
@@ -38,6 +39,10 @@
     <li>Industrial Facilities</li>
 </ul>
 
-<p>Trained in the latest cleaning techniques and armed with cutting-edge cleaning equipment, we provide customized service. And because our clients have their own individual cleaning needs, we tailor our cleaning programs to fit their specifications.</p>
+<p>Trained in the latest cleaning techniques and armed with cutting-edge cleaning equipment, we provide customized service. And because our 
+	clients have their own individual cleaning needs, we tailor our cleaning programs to fit their specifications.</p>
 
-<p>We know you have many choices when it comes to choosing a cleaning company. You need flexible solutions to meet today's evolving facility demands. You have to choose the company that can best provide the quality services you need. Jani-King is the right choice. We recognize each company's unique culture. We will furnish progressive, cutting-edge solutions, and continually communicate with you to ensure on-going success.</p>
+<p>We know you have many choices when it comes to choosing a cleaning company. You need flexible solutions to meet today's 
+	evolving facility demands. You have to choose the company that can best provide the quality services you need. Jani-King is the 
+	right choice. We recognize each company's unique culture. We will furnish progressive, cutting-edge solutions, and 
+	continually communicate with you to ensure on-going success.</p>
