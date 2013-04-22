@@ -1,8 +1,8 @@
 <?php
-$dbhost = 'mysql1.myregisteredsite.com';
-$dbuser = '41389_jkdblogin';
-$dbpass = 'd@zser99';
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpass = 'd@zser2469';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die('Error connecting to mysql');
-$dbname = '41389_janiking';
+$dbname = 'global';
 mysql_select_db($dbname) or die('Error connecting to db');
 ?>

@@ -32,7 +32,7 @@ if(isset($_REQUEST['location']) && $_REQUEST['location'] != "-1"){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>JaniKing - Please select your location</title>
+<title>Jani-King - Please select your location</title>
 <style type="text/css">
 #container{
 	width:649px;
@@ -93,19 +93,19 @@ html #container{
 	</div>
 	<div id="form">
 		<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="post">
-<h4>Please select your location</h4>
-<select name="location" style="width: 200px;">
-	<option value="-1">Select your location</option>
-	<option value="baltimore">Baltimore</option>
-	<option value="birmingham">Birmingham</option>
-	<option value="charlotte">Charlotte</option>
-	<option value="orlando">Orlando</option>
-	<option value="tampa">Tampa</option>
-</select>
-	<input name="submit" type="submit" value="Go" />
-	<br /><br />
-	<input name="remember" type="checkbox" id="remember" value="remember" />
-	<label for="remember" style="font-size: small;">Remember your location</label>
+		<h4>Please select your location</h4>
+		<select name="location" style="width: 200px;">
+			<option value="-1">Select your location</option>
+			<option value="baltimore">Baltimore</option>
+			<option value="birmingham">Birmingham</option>
+			<option value="charlotte">Charlotte</option>
+			<option value="orlando">Orlando</option>
+			<option value="tampa">Tampa</option>
+		</select>
+			<input name="submit" type="submit" value="Go" />
+			<br /><br />
+			<input name="remember" type="checkbox" id="remember" value="remember" />
+			<label for="remember" style="font-size: small;">Remember your location</label>
 		</form>
 </div>
 </div>

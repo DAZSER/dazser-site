@@ -1,6 +1,6 @@
 <?php
 include 'opendb.php';
-$sql = "SELECT * FROM jk_news WHERE pid='".$_REQUEST['var']."'";
+$sql = "SELECT * FROM gen_news WHERE id='".$_REQUEST['var']."'";
 $result = mysql_query($sql) or die('Query failed: '.mysql_error()); 
 $row = mysql_fetch_array($result, MYSQL_ASSOC);
 
