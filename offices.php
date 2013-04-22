@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 include 'assets/opendb.php';
 
-$sql = "SELECT * FROM jk_locations ORDER BY location ASC";
+$sql = "SELECT * FROM gen_branchdata WHERE city_name is not null ORDER BY city_name ASC";
 $result = mysql_query($sql) or die('Query failed: ' . mysql_error());
 ?>
 <div style="float:left;width:270px;">
@@ -32,7 +32,7 @@ $result = mysql_query($sql) or die('Query failed: ' . mysql_error());
 
 <?php
 while($row = mysql_fetch_array($result)){
-	echo "<li><a href='/assets/offices_process.php?l=".$row['location']."' class='location' name='".$row['location']."'>".$row['location']."</a></li>";
+	echo "<li><a href='/assets/offices_process.php?l=".$row['schema_name']."' class='location' name='".$row['schema_name']."'>".ucwords($row['schema_name'])."</a></li>";
 }
 
 include 'assets/closedb.php';

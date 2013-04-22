@@ -25,6 +25,9 @@ switch ($temp){
 		break;
 }
 
+//debug overwrite
+$to = 'network.admin@dazser.com';
+
 $subject = 'Jani-King - Web Site Contact Form';
 $headers = '';
 if( isset($_REQUEST['Name']) && $_REQUEST['Name'] !== '' )
