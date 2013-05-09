@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+$location = $_SESSION['location'];
+
 $temp = strtoupper($location);
 
 //Who get's the email on DAZSER's side
@@ -47,21 +49,32 @@ if( isset($_REQUEST['Email']) ){
 }
 else ini_set("sendmail_from", "info@dazser.com");
 
-$msg = "Message from: $from\nCompany: $comp\n\nTelephone Number: $tele\n";
-$msg .= "Email: $email\n";
+$msg = "Message from: $from\r\nCompany: $comp\r\n\r\nTelephone Number: $tele\r\n";
+$msg .= "Email: $email\r\n";
 
 if( strcmp($_REQUEST['franchise'], 'undefined') )
-	$msg .= "\tI would like information about acquiring a franchise.\n";
+	$msg .= "\tI would like information about acquiring a franchise.\r\n";
 
 if( strcmp($_REQUEST['new'], 'undefined') )
-	$msg .= "\tI am a business owner that would like information about your services.\n";
+	$msg .= "\tI am a business owner that would like information about your services.\r\n";
 
 if( isset($_REQUEST['comments']) )
-	$msg .= "Additional comments:\n\t".stripslashes($_REQUEST['comments']);
+	$msg .= "Additional comments:\r\n\t".stripslashes($_REQUEST['comments']);
 
+ 
+ 
+function normalize($s) {
+    // Normalize line endings
+    // Convert all line-endings to UNIX format
+    $s = str_replace("\r\n", "\n", $s);
+    $s = str_replace("\r", "\n", $s);
+    // Don't allow out-of-control blank lines
+    $s = preg_replace("/\n{2,}/", "\n\n", $s);
+    return $s;
+}
 
-if ( mail( $to, $subject, $msg, $headers ) )
+if ( mail( normalize($to), normalize($subject), normalize($msg), normalize($headers) ) )
 	echo nl2br("$msg");
 else
-	echo "Your message failed to send. Please contact Jani-King dircectly at (727) 797-7744";
+	echo "Your message failed to send. Please contact Jani-King directly at (727) 797-7744";
 ?>

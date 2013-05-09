@@ -1,5 +1,7 @@
 <?php
 //Cookie is set, set session
+$location = "";
+
 if( isset($_COOKIE['location']))
 	$location = $_COOKIE['location'];
 else {
