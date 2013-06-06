@@ -59,6 +59,8 @@ html #footer{
 </style>
 <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" />
 <![endif]-->
+<link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/4.0/video.js"></script>
 </head>
 
 <body>
