@@ -28,11 +28,23 @@ if(isset($_REQUEST['location']) && $_REQUEST['location'] != "-1"){
 }
 	//else display map page;
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Jani-King - Please select your location</title>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="DAZSER is a Master Franchise of Jani-King Cleaning Corporation.">
+	<meta name="keywords" content="cleaning, company, janitor, janitorial, franchise, commercial, clearwater fl, custodian, maid, evs, coverall, jan-pro, cleannet, anago, vanguard, bonus, janitize, stratus">
+	<meta name="copyright" content="DAZSER Management - <?php echo date("Y"); ?>">
+	<meta name="author" content="DAZSER">
+	<meta name="email" content="network.admin@dazser.com">
+	<meta name="Distribution" content="Global">
+	<meta name="Rating" content="General">
+	<meta name="Robots" content="INDEX,FOLLOW">
+	<meta name="Revisit-after" content="31 Days">
+	<link href="/favicon.ico" rel="shortcut icon">
+	<title>Jani-King - Please select your location</title>
 <style type="text/css">
 #container{
 	width:649px;
@@ -69,17 +81,6 @@ a#Tampa{left: 420px; top: 223px;  width: 95px}
 h4{margin-top:20px;}
 </style>
 <![endif]-->
-<!--[if lt IE 7]>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<style type="text/css">
-html #container{
-    background: none; /* Hide the current background image so you can replace it with the filter*/
-    width: 649px; /* Must specify width */
-    height: 700px; /* Must specify height */
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='images/map.png');
-}
-</style>
-<![endif]-->
 </head>
 
 <body>
@@ -109,12 +110,13 @@ html #container{
 		</form>
 </div>
 </div>
-<!-- mathiasbynens.be/notes/async-analytics-snippet -->
 <script>
-var _gaq=[['_setAccount','UA-8299399-2'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'));
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='//www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-8299399-2');ga('send','pageview');
 </script>
 </body>
 </html>

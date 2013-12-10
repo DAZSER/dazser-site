@@ -22,45 +22,33 @@ if( isset($_REQUEST['var']) )
 	$var = $_REQUEST['var'];
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="DAZSER is a Master Franchise of Jani-King Cleaning Corporation." />
-<meta name="keywords" content="cleaning, company, janitor, janitorial, franchise, commercial, clearwater fl, custodian, maid, evs, coverall, jan-pro, cleannet, anago, vanguard, bonus, janitize, stratus" />
-<meta name="copyright" content="DAZSER Management - <?php echo date("Y"); ?>" />
-<meta name="author" content="DAZSER" />
-<meta name="email" content="network.admin@dazser.com" />
-<meta name="Charset" content="UTF-8" />
-<meta name="Distribution" content="Global" />
-<meta name="Rating" content="General" />
-<meta name="Robots" content="INDEX,FOLLOW" />
-<meta name="Revisit-after" content="31 Days" />
-<title><?php echo ucfirst($page); ?> - Jani-King</title>
-<link href="/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
-<!--[if lt IE 8]>
-  <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection" />
-<![endif]-->
-<link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen, projection" />
-<!--[if lt IE 8]>
-  <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" />
-<![endif]-->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<!--[if IE 6]>
-<style type="text/css">
-html #footer{
-    background: none; /* Hide the current background image so you can replace it with the filter*/
-    width: 870px; /* Must specify width */
-    height: 50px; /* Must specify height */
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='images/footerBg.png');
-}
-</style>
-<link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" />
-<![endif]-->
-<link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
-<script src="http://vjs.zencdn.net/4.0/video.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="DAZSER is a Master Franchise of Jani-King Cleaning Corporation.">
+	<meta name="keywords" content="cleaning, company, janitor, janitorial, franchise, commercial, clearwater fl, custodian, maid, evs, coverall, jan-pro, cleannet, anago, vanguard, bonus, janitize, stratus">
+	<meta name="copyright" content="DAZSER Management - <?php echo date("Y"); ?>">
+	<meta name="author" content="DAZSER">
+	<meta name="email" content="network.admin@dazser.com">
+	<meta name="Distribution" content="Global">
+	<meta name="Rating" content="General">
+	<meta name="Robots" content="INDEX,FOLLOW">
+	<meta name="Revisit-after" content="31 Days">
+	<title><?php echo ucfirst($page); ?> - Jani-King</title>
+	<link href="/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]>
+	  <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen, projection">
+	<!--[if lt IE 8]>
+	  <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -83,25 +71,16 @@ html #footer{
 	<div id="footer" class="footer">
 		<p>&copy; <?php echo date('Y'); ?> <acronym>DAZSER</acronym> Management</p>
         <h5 class="fancy"><a href="/baltimore">Baltimore</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/birmingham">Birmingham</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/charlotte">Charlotte</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/orlando">Orlando</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tampa">Tampa</a></h5>
-	</div>	
+	</div>
 </div>
-<!--[if IE 6]>
-<script type="text/javascript" src="/js/jquery.pngFix.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#logo').pngFix();
-	$('#bodyHeader').pngFix();
-    $('#badge').pngFix();
-    $('.png').pngFix();
-});
-</script>
-<![endif]-->
 <!-- mathiasbynens.be/notes/async-analytics-snippet -->
 <script>
-var _gaq=[['_setAccount','UA-8299399-2'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'));
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='//www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-8299399-2');ga('send','pageview');
 </script>
 </body>
 </html>
